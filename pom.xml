@@ -8,7 +8,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>log-demo</name>
+    <name>demo-log</name>
     <description>Log demostration project</description>
 
     <parent>
