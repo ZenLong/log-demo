@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.codewalnut.demo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,14 +9,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 异步日志测试程序
  *
  * @author KelvinZ
- * @date 2018-11-06 12:53
  */
 @SpringBootApplication
-public class DemoApplication {
-    private static Logger log = LoggerFactory.getLogger(DemoApplication.class);
+public class DemoLogApplication {
+    private static Logger log = LoggerFactory.getLogger(DemoLogApplication.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(DemoLogApplication.class, args);
 
         log.info(log.getClass().getName());
         log.error("ERROR level print");
